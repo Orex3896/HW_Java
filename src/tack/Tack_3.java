@@ -9,7 +9,7 @@ public class Tack_3 {
             Nums += i + " ";
         }
             }
-        return Nums;
+        //return Nums;
     }
         public static int isSimple ( int m){
             if (m % 2 == 0 || m % 3 == 0 || m % 5 == 0 || m % 7 == 0){
