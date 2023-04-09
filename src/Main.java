@@ -1,7 +1,8 @@
+import seminar5.Tack_1;
 import tack.Tack_3;
 import tack.Tack_4;
 import tackHW.Tack1;
-import tack_2.Tack_1;
+import tackHW.TackLeson1;
 import tack_2.Tack_2;
 
 import java.io.IOException;
@@ -17,12 +18,14 @@ public class Main {
         //Tack_2.factorial();
         //Tack_3.isSimple(1);
         //  Tack_4.calkulator();
-
+        //System.out.println();
         //System.out.println(Tack_1.print_string(9, '+', '*'));
         //Tack_2.createdFile();
 
         //int [] MyArray = new int[]{5,4,3};
         //Tack1.writeIteration(MyArray);
+        //TackLeson1.ymnoj(args);
+        Tack_1.getTime();
 
     }
 }

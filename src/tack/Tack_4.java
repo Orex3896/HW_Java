@@ -27,4 +27,5 @@ public class Tack_4 {
         System.out.println(result);
 
     }
+
 }
