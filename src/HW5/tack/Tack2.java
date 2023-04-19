@@ -23,17 +23,19 @@ public class Tack2 {
         Map<String, Integer> nameCount = new HashMap<>();
         List<Integer> arrayCount = new ArrayList<>();
         Map<String, Integer> result = new LinkedHashMap<>();
-        for (int i = 0; i < names.size(); i++) {
+        for (int i = 0; i < names.size(); i++) {// идём по нашему списку и смотрим повторяющиеся имена и переменной
+            // count добавляем по 1 если встретили такое же имя
             int count = Collections.frequency(names, names.get(i));
             arrayCount.add(count);
             nameCount.put(names.get(i), count);
         }
         int maxCount = Collections.max(arrayCount);
-        for (int i = maxCount; i > 0; i--) {
+        for (int i = maxCount; i > 0; i--) {//здесь реализуем наш список по убыванию
             for (Map.Entry<String, Integer> entry : nameCount.entrySet()) {
                 if (entry.getValue().equals(i)) {
                     result.put(entry.getKey(), i);
                 }
             }
         }
+        System.out.println(result);
     }}

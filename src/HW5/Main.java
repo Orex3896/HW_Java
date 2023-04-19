@@ -17,7 +17,7 @@ public class Main {
         fileHandler.close();//Закрытие именно файлхэнжлера не ЛОГЕРА!!!!
 
 
-        Tack1.run();
+        //Tack1.run();
         Tack2.sortedName();
     }
 }
